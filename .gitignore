@@ -16,4 +16,5 @@ rng_state.pth
 
 # model specs
 *.bin
-*.safetensors
+models/distilbert/model.safetensors
+models/pickle/distilbert.pkl
