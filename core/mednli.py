@@ -134,17 +134,6 @@ yval = validation['label']
 
 # create classification report
 classification_report(yval, ypred)
-'''
-              precision    recall  f1-score   support
-
-           0       0.64      0.66      0.65       465
-           1       0.69      0.67      0.68       465
-           2       0.80      0.80      0.80       465
-
-    accuracy                           0.71      1395
-   macro avg       0.71      0.71      0.71      1395
-weighted avg       0.71      0.71      0.71      1395
-'''
 
 
 
@@ -197,15 +186,4 @@ yval = validation['label']
 
 # create classification report
 classification_report(yval, ypred)
-'''classification_report(ytest, ypred)
-              precision    recall  f1-score   support
-
-           0       0.57      0.55      0.56       465
-           1       0.58      0.59      0.59       465
-           2       0.70      0.71      0.70       465
-
-    accuracy                           0.62      1395
-   macro avg       0.62      0.62      0.62      1395
-weighted avg       0.62      0.62      0.62      1395
-'''
 
