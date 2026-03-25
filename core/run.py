@@ -44,10 +44,10 @@ test = test.map(tokenize)
 # from hugging face
 from transformers import AutoModelForSequenceClassification as amsc
 # model_bert = amsc.from_pretrained('prajjwal1/bert-tiny', num_labels = 3)
-model_bert = amsc.from_pretrained('bert', num_labels = 3)
+model_bert = amsc.from_pretrained('../models/bert', num_labels = 3)
 
 from transformers import DistilBertForSequenceClassification
-model_dbert = DistilBertForSequenceClassification.from_pretrained("distilbert")
+model_dbert = DistilBertForSequenceClassification.from_pretrained("../models/distilbert")
 
 
 model_bert.eval()
